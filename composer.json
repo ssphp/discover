@@ -1,0 +1,21 @@
+{
+    "name": "ssphp/discover",
+    "description": "hfjy php Discover",
+    "keywords": ["discover"],
+    "homepage": "https://github.com/ssphp/discover",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "qiaoyiyang",
+            "email": "qiaoyiyang252@hfjy.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "autoload": {
+        "psr-4": {"Discover\\": "src/Discover"}
+    }
+}
